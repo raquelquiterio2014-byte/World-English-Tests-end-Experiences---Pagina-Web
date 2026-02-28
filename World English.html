@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World English Tests and Experiences</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo">
+  <h1>World English Tests and Experiences</h1>
+  <p>Aprenda inglês com experiências reais 🌍</p>
+  <button class="btn" onclick="scrollToSection('contato')">Começar Agora</button>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#servicos">Serviços</a> 
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <div class="container">
+    <h2>Sobre</h2>
+    <p>Professora de inglês online focada em conversação e gramática </p>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="container">
+    <h2>Serviços</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Conversação</h3>
+        <p>Prática para fluência.</p>
+      </div>
+   
+      <div class="card">
+        <h3>Aulas Personalizadas</h3>
+        <p>Plano focado em você.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contato">
+  <div class="container">
+    <h2>Contato</h2>
+    <form onsubmit="enviarFormulario(event)">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Mensagem" required></textarea>
+      <button class="btn">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 World English Tests and Experiences</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
