@@ -6,5 +6,5 @@ function scrollToSection(id) {
 
 function enviarFormulario(e) {
   e.preventDefault();
-  alert("Mensagem enviada com sucesso!");
+  alert("Esta é uma demonstração: a mensagem não foi enviada. Ainda não há serviço de contato conectado.");
 }
